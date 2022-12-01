@@ -1,8 +1,13 @@
 
 import './App.css';
+import Main from './Main';
 
 function App() {
-  return
+  return (
+    <div className="App">
+      <Main/>
+    </div>
+  );
 }
 
 export default App;
